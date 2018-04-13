@@ -8,5 +8,8 @@ public class ComparableList
 		list = new ArrayList<Comparable>();
 	}
 	public void add(Name name)
-
+	{
+		list.add(name);
+	}
+	
 }
