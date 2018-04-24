@@ -37,15 +37,6 @@ public class Name implements Comparable
 		}
 		return val;
 	}
-	public String findFirst()
-	{
-		String first = "";
-		if( <= 1)
-		{
-			
-		}
-		
-	}
 
 }
 
