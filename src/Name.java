@@ -33,15 +33,12 @@ public class Name implements Comparable
 		}
 		else
 		{
-			val = firstName.compareTo(name.getFirstName());
+			val = lastName.compareTo(name.getLastName());
 		}
 		return val;
 	}
 
 }
 
-
-// a findFirst method that returns the "smallest" object in the list as defined by the compareTo()
-//method and a findLast method that returns the "largest" object in the list.
 
 
