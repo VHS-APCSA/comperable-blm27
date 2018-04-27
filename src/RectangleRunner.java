@@ -1,7 +1,7 @@
 
 public class RectangleRunner
 {
-	public static Comparable max(Comparable a, Comparable b)
+	public static Comparable largest(Comparable a, Comparable b)
 	{
 		if(a.compareTo(b) > 0)
 		{
@@ -17,7 +17,7 @@ public class RectangleRunner
 		Rectangle r1 = new Rectangle(4,2);
 		Rectangle r2 = new Rectangle(4,4);
 		Rectangle output = new Rectangle();
-		output =  (Rectangle) max(r1, r2);
+		output =  (Rectangle) largest(r1, r2);
 		System.out.println(output.getArea());
 	}
 }
