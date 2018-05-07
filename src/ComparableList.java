@@ -7,9 +7,9 @@ public class ComparableList
 	{
 		list = new ArrayList<Comparable>();
 	}
-	public void add(Name name)
+	public void add(Comparable comparable)
 	{
-		list.add(name);
+		list.add(comparable);
 	}
 	public Comparable findFirst()
 	{

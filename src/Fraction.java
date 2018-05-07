@@ -23,7 +23,7 @@ public class Fraction implements Comparable
 	}
 	public double getDecimal()
 	{
-		return num/denominator;
+		return (double)num/denominator;
 	}
 	@Override
 	public int compareTo(Object obj)
